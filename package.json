@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "express": "^4.21.1",
+    "helmet": "^8.0.0",
     "mysql2": "^3.11.4"
   },
   "name": "servidor_sql",
@@ -8,10 +9,13 @@
   "main": "app.js",
   "type": "module",
   "scripts": {
-    "dev": "node app.js"
+    "dev": "nodemon app.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
 }
